@@ -2,27 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>List of Places</title>
+    <link rel="icon" type="image/png" href="icon.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="login.html" id="login-link">Login</a>
+    <!-- Start of Header -->
+    <header class="header">
+        <a class="logo" href="index.html">
+            <img src="logo.png" alt="logo" class="logo">
+        </a>
+        <nav class="header-nav">
+            <a href="login.html" id="login-button">
+                Login
+            </a>
         </nav>
     </header>
-    <main>
+    <!-- End of Header -->
+
+    <!-- Start of Main -->
+    <main class="main">
         <section id="filter">
+            <h2>Choose your Country:</h2>
             <label for="country-filter">Filter by Country:</label>
             <select id="country-filter">
+                <option value="0">All</option>
                 <!-- Options will be populated dynamically -->
             </select>
+        </section>
+        <section class="place-card">
+            <section class="place-image">
+
+            </section>
         </section>
         <section id="places-list">
             <!-- List of places will be populated dynamically -->
         </section>
     </main>
-    <script src="scripts.js"></script>
+    <!-- End of Main -->
+    
+    <!-- Start of Footer -->
+    <footer class="footer">
+        <p class="footer-copyright">
+            © 2024 HBnB Evolution. All rights reserved.
+        </p>
+    </footer>
+    <!-- End of Footer -->
 </body>
 </html>

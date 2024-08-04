@@ -1,6 +1,5 @@
 /* 
-  This is a SAMPLE File to get you started. Follow the instructions on the project to complete the tasks. 
-  You'll probably need to override some of theese styles.
+  This is te CSS for the index page
 */
 
 * {
@@ -16,7 +15,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #e7b1b1;
     color: #fff;
     padding: 1rem;
 }
